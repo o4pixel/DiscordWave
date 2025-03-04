@@ -10,7 +10,7 @@ setup(
     description="A modern Python library for Discord bot development",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/discordwave",
+    url="https://github.com/o4pixel/discordwave",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
