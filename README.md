@@ -19,8 +19,19 @@ DiscordWave is an asynchronous Python library that provides a clean, intuitive i
 
 ## Installation
 
+### Install from GitHub (Recommended)
+
 ```bash
-pip install discordwave
+pip install git+https://github.com/o4pixel/discordwave.git
+```
+
+
+### Install from source
+
+```bash
+git clone https://github.com/o4pixel/discordwave.git
+cd discordwave
+pip install .
 ```
 
 ## Quick Start
@@ -47,7 +58,7 @@ bot.run()
 1. Create an application in the [Discord Developer Portal](https://discord.com/developers/applications)
 2. Add a bot to your application
 3. Copy your bot token
-4. Invite the bot to your server using the OAuth2 URL generator
+4. Invite the bot to your server using the OAuth2 URL generator (with messages and bot permissions)
 5. Run your bot with the token
 
 ## Documentation
@@ -91,6 +102,16 @@ Listen for Discord events:
 async def on_guild_join(guild_data):
     print(f"Bot added to a new guild: {guild_data['name']}")
 ```
+
+## Example Bot
+
+Check out `examplebot.py` in the repository for a working example bot with several commands.
+
+## Requirements
+
+- Python 3.8 or higher
+- aiohttp 3.7.4 or higher
+- websockets 10.0 or higher
 
 ## Contributing
 
