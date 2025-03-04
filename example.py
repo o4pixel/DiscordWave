@@ -1,14 +1,3 @@
-"""
-Example Discord Bot using DiscordWave
-
-This is a simple example bot that showcases the basic features
-of the DiscordWave library.
-
-To run this bot, you'll need to:
-1. Install the discordwave package: pip install discordwave
-2. Create a bot on the Discord Developer Portal and get a token
-3. Run this script with your token: python example_bot.py
-"""
 import asyncio
 import logging
 from discordwave import Client, Intents
